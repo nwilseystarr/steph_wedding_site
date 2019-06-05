@@ -9,7 +9,7 @@ import image5 from './image5.png';
 export class Carousel extends Component {
     render() {
         return (
-            <div className="container-fluid carouselContainer">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col px-0">
                         <div id="carouselImages" className="carousel slide carousel-fade" data-ride="carousel">
@@ -24,22 +24,42 @@ export class Carousel extends Component {
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src={image1} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <div className="carousel-caption">
+                                        <h1 className="display-2">Steph and Erv</h1>
+                                        <h2 className="border-top border-bottom border-white">February 29, 2020 | Chicago, IL</h2>
+                                    </div>
                                 </div>
                                 {/*Image Two*/}
                                 <div className="carousel-item">
-                                        <img src={image2} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <img src={image2} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <div className="carousel-caption">
+                                        <h1 className="display-2">Steph and Erv</h1>
+                                        <h2 className="border-top border-bottom border-white">February 29, 2020 | Chicago, IL</h2>
+                                    </div>
                                 </div>
                                 {/*Image Three*/}
                                 <div className="carousel-item">
-                                        <img src={image3} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <img src={image3} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <div className="carousel-caption">
+                                        <h1 className="display-2">Steph and Erv</h1>
+                                        <h2 className="border-top border-bottom border-white">February 29, 2020 | Chicago, IL</h2>
+                                    </div>
                                 </div>
                                 {/*Image Four*/}
                                 <div className="carousel-item">
-                                        <img src={image4} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <img src={image4} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <div className="carousel-caption">
+                                        <h1 className="display-2">Steph and Erv</h1>
+                                        <h2 className="border-top border-bottom border-white">February 29, 2020 | Chicago, IL</h2>
+                                    </div>
                                 </div>
                                 {/*Image Five*/}
                                 <div className="carousel-item">
-                                        <img src={image5} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <img src={image5} className="d-block vw-100 vh-100 carousel-img" alt="..." />
+                                    <div className="carousel-caption">
+                                        <h1 className="display-2">Steph and Erv</h1>
+                                        <h2 className="border-top border-bottom border-white">February 29, 2020 | Chicago, IL</h2>
+                                    </div>
                                 </div>
                             </div>
                             <a className="carousel-control-prev" href="#carouselImages" role="button" data-slide="prev">
