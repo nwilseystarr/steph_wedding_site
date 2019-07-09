@@ -7,7 +7,7 @@ import EventWedding from './components/EventWedding';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Carousel />
       <EventWedding />
     </div>

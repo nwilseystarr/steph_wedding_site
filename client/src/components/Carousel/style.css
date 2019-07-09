@@ -1,9 +1,32 @@
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px; 
+}
 /* .carousel{
     width: 50%;
     height: 30%;
 } */
 
-.display-2 {
+/* .display-2 {
     font-family: 'Crimson Text', serif;
     font-weight: 700;
     text-shadow: 3px 2px 8px black;
@@ -60,4 +83,4 @@ h2 {
         color: #fff;
         text-align: center;
     }
-}
+} */
