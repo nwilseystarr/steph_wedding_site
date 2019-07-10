@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-import image1 from './image1.jpg';
+// import image1 from './image1.jpg';
 import image2 from './image2.png';
 import image3 from './image3.png';
 import image4 from './image4.png';
@@ -24,9 +24,9 @@ export class Carousel extends Component {
 
                                 <div className="carousel-item active">
                                     <div className="row">
-                                        <div className="col-md-3">
+                                        {/* <div className="col-md-3">
                                             <img src={image1} alt=" " />
-                                        </div>
+                                        </div> */}
                                         <div className="col-md-3">
                                             <img src={image2} alt=" " />
                                         </div>
@@ -35,6 +35,9 @@ export class Carousel extends Component {
                                         </div>
                                         <div className="col-md-3">
                                             <img src={image4} alt=" " />
+                                        </div>
+                                        <div className="col-md-3">
+                                            <img src={image5} alt=" " />
                                         </div>
                                     </div>
                                     {/* <!--.row--> */}
