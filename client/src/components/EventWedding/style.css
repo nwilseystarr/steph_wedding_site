@@ -1,7 +1,18 @@
-.testing{
-    font-size: 5rem;
-    color: black;
-    background-color: beige;
+.container2{
+    color: #17458f;
     position: absolute;
     width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.names{
+    font-size: 4rem;
+}
+
+.date{
+    font-size: 1.75rem;
+}
+
+.countdown{
+    font-size: 1.75rem;
 }

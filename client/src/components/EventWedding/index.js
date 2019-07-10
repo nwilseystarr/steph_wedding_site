@@ -4,16 +4,19 @@ import './style.css';
 export class EventWedding extends Component {
     render() {
         return (
-            <div className="testing">
-                Wedding Info
-                <br />
-                Goes Here
-                <br />
-                YAY!
-                <br />
+            <div className="container2">
+                <div className="names">
+                Steph and Erv
+                </div>
+                <div className="date">
+                February 29, 2020 | Chicago, IL
+                </div>
+                <div className="countdown">
+                XXX Days to Go
+                </div>
             </div>
         )
     }
 }
 
-export default EventWedding
+export default EventWedding;
