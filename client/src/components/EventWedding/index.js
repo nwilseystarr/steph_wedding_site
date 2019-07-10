@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import Countdown from '../Countdown';
 import './style.css';
 
-export class EventWedding extends Component {
+class EventWedding extends Component {
     render() {
         return (
             <div className="container2">
@@ -12,7 +13,9 @@ export class EventWedding extends Component {
                 February 29, 2020 | Chicago, IL
                 </div>
                 <div className="countdown">
-                XXX Days to Go
+                Only...
+                <Countdown date={`2020-02-29T17:00:00`} />
+                To Go!
                 </div>
             </div>
         )
