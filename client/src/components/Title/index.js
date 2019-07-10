@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Countdown from '../Countdown';
 import './style.css';
 
-class EventWedding extends Component {
+class Title extends Component {
     render() {
         return (
             <div className="container2">
@@ -22,4 +22,4 @@ class EventWedding extends Component {
     }
 }
 
-export default EventWedding;
+export default Title;
