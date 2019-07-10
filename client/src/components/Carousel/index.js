@@ -14,10 +14,10 @@ export class Carousel extends Component {
                     <div className="col-md-12">
                         <div id="blogCarousel" className="carousel slide" data-ride="carousel">
 
-                            <ol className="carousel-indicators">
+                            {/* <ol className="carousel-indicators">
                                 <li data-target="#blogCarousel" data-slide-to="0" className="active"></li>
                                 <li data-target="#blogCarousel" data-slide-to="1"></li>
-                            </ol>
+                            </ol> */}
 
                             {/* <!-- Carousel items --> */}
                             <div className="carousel-inner">
@@ -25,24 +25,42 @@ export class Carousel extends Component {
                                 <div className="carousel-item active">
                                     <div className="row">
                                         <div className="col-md-3">
-                                                <img src={image1} alt=" " />
+                                            <img src={image1} alt=" " />
                                         </div>
                                         <div className="col-md-3">
-                                                <img src={image2} alt=" " />
+                                            <img src={image2} alt=" " />
                                         </div>
                                         <div className="col-md-3">
-                                                <img src={image3} alt=" " />
+                                            <img src={image3} alt=" " />
                                         </div>
                                         <div className="col-md-3">
-                                                <img src={image4} alt=" " />
+                                            <img src={image4} alt=" " />
                                         </div>
-                                        {/* <div className="col-md-3">
-                                                <img src={image5} alt=" " />
-                                        </div> */}
                                     </div>
                                     {/* <!--.row--> */}
                                 </div>
+
                                 {/* <!--.item--> */}
+                                {/* <div className="carousel-item">
+                                    <div className="row">
+                                        <div className="col-md-3">
+                                            <img src={image1} alt=" " />
+                                        </div>
+                                        <div className="col-md-3">
+                                            <img src={image2} alt=" " />
+                                        </div>
+                                        <div className="col-md-3">
+                                            <img src={image3} alt=" " />
+                                        </div>
+                                        <div className="col-md-3">
+                                            <img src={image4} alt=" " />
+                                        </div>
+                                    </div> */}
+                                    {/* <!--.row--> */}
+                                {/* </div> */}
+                                {/* <!--.item--> */}
+
+
                             </div>
                             {/* <!--.carousel-inner--> */}
                         </div>
