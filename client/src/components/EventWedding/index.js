@@ -16,11 +16,11 @@ class EventWedding extends Component {
                 <div className="row">
                     <div className="col">
                         <div className="info">
-                            Date
+                            Feb 29, 2020
                     <br />
-                            Time
+                            5:00 PM
                     <br />
-                            Location
+                            Chicago, IL
                     <br />
                         </div>
                     </div>
