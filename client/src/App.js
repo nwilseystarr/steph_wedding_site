@@ -25,8 +25,8 @@ class App extends Component {
         <Title />
         <EventWedding />
         <WeddingPartyWrapper>
-          <div className="row">
-            <div className="col-auto">
+          <div className="row justify-content-md-center weddingParty">
+            <div className="col">
               {this.state.stephPeople.map(stephPeople => (
                 <WeddingParty
                   key={stephPeople.id}
@@ -35,7 +35,7 @@ class App extends Component {
                   image={stephPeople.image} />
               ))}
             </div>
-            <div className="col-auto">
+            <div className="col">
               {this.state.ervPeople.map(ervPeople => (
                 <WeddingParty
                   key={ervPeople.id}
